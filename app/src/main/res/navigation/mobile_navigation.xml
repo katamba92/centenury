@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.roc.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/emailFragment"
+        android:name="com.example.roc.ui.EmailFragment"
+       android:label="Contact Us"
+        tools:layout="@layout/fragment_email" />
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.example.roc.ui.LocationFragment"
+        android:label="CenteOnline"
+        tools:layout="@layout/fragment_location" />
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="com.example.roc.ui.MessageFragment"
+        android:label="CRS"
+        tools:layout="@layout/fragment_message" />
+    <fragment
+        android:id="@+id/AboutusFragment"
+        android:name="com.example.roc.ui.AboutusFragment"
+        android:label="fragment_aboutus"
+        tools:layout="@layout/fragment_aboutus" />
+    <fragment
+        android:id="@+id/BATMFragment"
+        android:name="com.example.roc.ui.BranchandATMFragment"
+        android:label="fragment_branchand_a_t_m"
+        tools:layout="@layout/fragment_branchand_a_t_m" />
+    <fragment
+        android:id="@+id/CareerFragment"
+        android:name="com.example.roc.ui.CareerFragment"
+        android:label="fragment_career"
+        tools:layout="@layout/fragment_career" />
+
+</navigation>
